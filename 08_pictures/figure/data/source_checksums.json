@@ -1,0 +1,30 @@
+[
+  {
+    "file": "raw_spectra.xlsx",
+    "sha256": "a18c5c3740f7b707d79aed4f44341886b66502adc059ba3bc66cb333e4dc567f"
+  },
+  {
+    "file": "oof_predictions.xlsx",
+    "sha256": "dcaf100a812ebe8a1b270cca4d5eba4347384b69589e21fc21a1b75742f3298f"
+  },
+  {
+    "file": "folds.xlsx",
+    "sha256": "e2b6e310ca68962074cd3f3d4e1411deb4c2e94b458d81c8500956eeb33dd46b"
+  },
+  {
+    "file": "feature_sweep.xlsx",
+    "sha256": "5f0a1bf7200e595a5b137ecc3db14659a540ff07d8387b80fa7cd1feb6733bd8"
+  },
+  {
+    "file": "processed_all.csv",
+    "sha256": "bc79c4a686247c1b7ecaea79245a9dc16f345929d131e1ecc6b1f17afcb0f90d"
+  },
+  {
+    "file": "processed_model.csv",
+    "sha256": "1b1e01e044aaa34910a3fbe206e06698bba2d1417b8d55518ca8d8d363c679f4"
+  },
+  {
+    "file": "supplementary.xlsx",
+    "sha256": "e2222218feaea741d1cc71ecb3ac85109f083fb1b94e78493259b45ec6c87882"
+  }
+]

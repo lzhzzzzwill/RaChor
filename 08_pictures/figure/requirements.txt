@@ -1,0 +1,6 @@
+matplotlib>=3.10
+numpy
+pandas
+scipy
+openpyxl
+pymupdf

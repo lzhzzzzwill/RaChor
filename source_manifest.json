@@ -1,0 +1,2403 @@
+{
+  "snapshot_date": "2026-10-12",
+  "files": [
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/config.py",
+      "sha256": "415b1d148c1f966455a2a9631b8a65c4181cc77f1adee076b5279c7ec212a9ee",
+      "bytes": 870
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/requirements.txt",
+      "sha256": "b91c5fb40519ce8e65320c5d770483fbeccdd6decc02690a980a0ce64a277e9a",
+      "bytes": 138
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/README.md",
+      "sha256": "33e03b9e909eeab1798e4c47a74183fe081b08ebab353d6439bd0530ef11f285",
+      "bytes": 774
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/.gitignore",
+      "sha256": "5367954fe4c9bdebe3828cd341de5a7d9bc63af434889cb82fa668f63415709b",
+      "bytes": 263
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/export_deployment_artifacts.py",
+      "sha256": "a91c83cb68b3ce66683a978b725e3cae11fbf5d22905071a99540fd528b76013",
+      "bytes": 25080
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/main.py",
+      "sha256": "be4a2ca74331262872923c1d9a2ab666ab16c47d72ef634ad17f81a486602bd1",
+      "bytes": 2194
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/pipeline/reporter.py",
+      "sha256": "bee926940d3f74e4cfe3eb4398c940afb3670642374379e116a11d8aedea7455",
+      "bytes": 4595
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/pipeline/orchestrator.py",
+      "sha256": "56b5fa26d58e3345c9b5d65b6c7f5fe0bac08c0ce0d6068a7bfcaa6ea0b829d8",
+      "bytes": 20075
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/features/selector.py",
+      "sha256": "894c563b3bacb1192f1f832f112364b829061c337e4130e754c8cf9e51d952f2",
+      "bytes": 1174
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/features/builder.py",
+      "sha256": "cc5088eb9f21910b056c860a5e62a0e977abe93596210eb0ccb9a2a32fa0d23f",
+      "bytes": 3959
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/utils/metrics.py",
+      "sha256": "b256356daca0b697955d635c7b0d2cee998bbf2ae177704a90997c01e75dc6d4",
+      "bytes": 945
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/utils/logger.py",
+      "sha256": "d7e8dcf1c89d88106a69d5c54e0c31ddc902cfc27567bf31196fa7d47d86970b",
+      "bytes": 458
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/models/custom_models.py",
+      "sha256": "add7cc216752c9c6a1ad2e0f712f45bbc92139820c7bc2de3bdd844b7cbbab38",
+      "bytes": 2563
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/models/trainer.py",
+      "sha256": "1333af6fda9b031169065fc2af53a97f22aba40c0ad4d99f90cf470b9a4c1c90",
+      "bytes": 1529
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/data_preprocessing/spectral_preprocessing.py",
+      "sha256": "f4f6d9a10b2011b0c956eb9f782cceef942fc455e72fc240eaf2de68ec695302",
+      "bytes": 2161
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/data/Raman_spectroscopy_data.xlsx",
+      "sha256": "7fb2c2605ac86b5dc23524e0f260a86dbbce92fea30b252d659c9d74774db6cc",
+      "bytes": 2693779
+    },
+    {
+      "path": "07_code/Raman-MP-Metal-Analysis/data/Raman_spectroscopy_data_preprocessed.csv",
+      "sha256": "289915b771ad14249e3d8064988ac71026dacff26e8b1aa0a9715b6fa5710dbc",
+      "bytes": 2621047
+    },
+    {
+      "path": "08_pictures/figure/requirements.txt",
+      "sha256": "12016f11bcc2803d400545b87b1335e42176246141309cbce5a7724107cb5113",
+      "bytes": 53
+    },
+    {
+      "path": "08_pictures/figure/output/appendix/FigS1_all_spectra.pdf",
+      "sha256": "f5348408589dc86661829b3d4eb7d4d8c42768c70b2545812aa820256262087e",
+      "bytes": 1363960
+    },
+    {
+      "path": "08_pictures/figure/output/response_options/01_histogram_rug.pdf",
+      "sha256": "e7875e8ed885440e12ab55096d9bd2dd4b1749b936b866fcd0b75b07be0687a9",
+      "bytes": 35303
+    },
+    {
+      "path": "08_pictures/figure/output/response_options/02_boxplot_points.pdf",
+      "sha256": "1e751a19fed0e76332b1656609f26aacdf0f6c0e394205b6ba16cc3adaf8665b",
+      "bytes": 38119
+    },
+    {
+      "path": "08_pictures/figure/output/response_options/03_raincloud.pdf",
+      "sha256": "820dd004763e66eb7affaa71d8076674fb2eb1cff106df3624c4a41d17ac4ed6",
+      "bytes": 59955
+    },
+    {
+      "path": "08_pictures/figure/output/response_options/00_options_comparison.pdf",
+      "sha256": "a050a52e89979a870acc3320a94cc682962dee7480c6c166e86b269541f0e7d1",
+      "bytes": 81232
+    },
+    {
+      "path": "08_pictures/figure/output/response_options/04_ecdf.pdf",
+      "sha256": "d9cf121ae8126e477f468016ad33ecffa59e4e95589139e66815fb9fe7f88382",
+      "bytes": 37073
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y141.pdf",
+      "sha256": "1527cc515e6775b852300f64224769d0d33fc5d290db821ef1432be51cd0c322",
+      "bytes": 27821
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y140.pdf",
+      "sha256": "2d826e66ebe08ff2f8e55b80e782552dea3c63b46ff1d4a8477082b76790d431",
+      "bytes": 28037
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y142.pdf",
+      "sha256": "587ecec751f4ccb56d2ac099a497ad8d316e273d747bd279a648b9bb5364a5c0",
+      "bytes": 28101
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y143.pdf",
+      "sha256": "3a0ea35c16d9aa9f21b65074274e6756ecee3f058d63c9ecc658a8a58cd0450b",
+      "bytes": 29461
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y147.pdf",
+      "sha256": "69e611c57c2f1c6e51a9185c647d589e1af1d7ec8596fac615e4aa9f5d429018",
+      "bytes": 28220
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y146.pdf",
+      "sha256": "7fd329cbe3f155379bee179ec73bede32138c227fb6160d095c514d54b2820db",
+      "bytes": 28816
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y144.pdf",
+      "sha256": "64fd2f5101395dd8a3ee94340d21d4fec7363399f1e67b462243e8e1319f146b",
+      "bytes": 29663
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y145.pdf",
+      "sha256": "b676c618b5be0b561286bc319763bf57282a18e7e281b403cbba36b3a2efdd86",
+      "bytes": 27969
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y148.pdf",
+      "sha256": "94f616b65db8069d33500cab7d25ce5418ac6be7f34b5deacf61ffb2194b0273",
+      "bytes": 29485
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PC/Y149.pdf",
+      "sha256": "a8aceca73d62a1e11f5b025e23cbd7b77acd462bb2118aded539596cc8902e80",
+      "bytes": 31720
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y4.pdf",
+      "sha256": "f59fe4de9e844d95d9ddac10ad69b2ad7c8072a7fec8b0b95e4a59d0d6618f62",
+      "bytes": 32621
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y5.pdf",
+      "sha256": "cd81ac69e35108f9f2a75186fa6601c2c053e2e3b0ba90c739b876f9485d92f3",
+      "bytes": 33416
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y7.pdf",
+      "sha256": "3f9b16c657a34c59594a451b7a61dbc5398a1b1c10404cb0868358d13c88b899",
+      "bytes": 33971
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y6.pdf",
+      "sha256": "b0308c524532c7ff3e08a0755c7c26855e6d23c2e253044e8dfca7eba2f11bb5",
+      "bytes": 33892
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y2.pdf",
+      "sha256": "8a4e95d009b736f731c2a9449c7d176952beee9d973a94d16ba3911bc753b896",
+      "bytes": 33146
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y3.pdf",
+      "sha256": "231f7fe58925aef9355f601ea48b8a621418585445792d6c07bbfe4a8912ebe5",
+      "bytes": 33014
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y1.pdf",
+      "sha256": "a92afeba3b836cb0f59b3704ade0058e6d4f3fb3ecac3be9959e773f2b0037e8",
+      "bytes": 33327
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y10.pdf",
+      "sha256": "577c558d4b5e9329b6c47442ec92ce848d2ae28183461432ed9d4136edd7170e",
+      "bytes": 33620
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y8.pdf",
+      "sha256": "c05a197f8b293adb3200a07fbb35d629e93d306d5fe080e351bb8d9533a0e2d0",
+      "bytes": 31830
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POM/Y9.pdf",
+      "sha256": "0b24838e4ed6499f150ec54cf760b671de09c12b4bb29c7331522048dbc451ff",
+      "bytes": 33751
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y109.pdf",
+      "sha256": "083168ac21a62f8ace55f5cc02262b75bf134844235665ae5acc9cf9201a2205",
+      "bytes": 33746
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y108.pdf",
+      "sha256": "93970603accb4176cdaae25240802d5c99d107fcef53f7ad020e326d31de9a37",
+      "bytes": 32727
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y103.pdf",
+      "sha256": "3178fee834d4d8d4608f3da61ed4cddb9e5cb6823e6d161f0f76a1c4c47f9c22",
+      "bytes": 32095
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y102.pdf",
+      "sha256": "028515f42f00d3d64cf835b76406bead250de2f5f0c5ceaa84cdd7f030ebe32d",
+      "bytes": 31550
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y101.pdf",
+      "sha256": "323c5a444445bd7d5ee6c1683c16ac90c96a048b71a08482c150ab2243df06bb",
+      "bytes": 32268
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y105.pdf",
+      "sha256": "354d5ce3d06cc499575df161af8e1367d0df6f6be8ee8c39eb55461aadb02958",
+      "bytes": 32291
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y104.pdf",
+      "sha256": "fc2fb6bdfca109f53489862cc3436c999186ef2b77e36e716c3e7fd955849c4c",
+      "bytes": 32478
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y106.pdf",
+      "sha256": "7de497e8d6a5f05fdad9d93d667a9c612cb22b9ae962d7a040065e365abd44ac",
+      "bytes": 32128
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SD/Y107.pdf",
+      "sha256": "16758362560412a3d234613ea964ef6d0b216f7c834b9b3a2c595496096d1b38",
+      "bytes": 34507
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y122.pdf",
+      "sha256": "e682907196a781cce27182d5a42a6c88b1ab448b0f3049fcf5614f68a0b4267e",
+      "bytes": 31882
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y123.pdf",
+      "sha256": "d1e68a0d414fcd6be63b82ec1b39b5313292d40c8a3bb65bb4d31be2f407a98c",
+      "bytes": 33626
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y121.pdf",
+      "sha256": "dd5b9c54f5ad531939cdc8b861e8ee7a61f9fbf9431191c7989ef20457dc6a69",
+      "bytes": 31429
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y120.pdf",
+      "sha256": "d7c373137e92d4bcf2b8e27804701565f9b984e295328a0dc4f97f5ec8cca776",
+      "bytes": 32677
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y124.pdf",
+      "sha256": "f7639780974abc95bc5627c61f98eafc5af0b71c79600b9d5cc147b25008ad56",
+      "bytes": 33564
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y125.pdf",
+      "sha256": "fa64c6e01923bbeec6d0e1deff870b55d8e18251fa078ef2b84629ab611e30c9",
+      "bytes": 32705
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y127.pdf",
+      "sha256": "59393269496e30fd23364bae4cd0c9fe867c55d08f85fa63e4419095e6693020",
+      "bytes": 32949
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y126.pdf",
+      "sha256": "6f676742c06855049724fc8ec6bcfd644d3a702ac49045f0005ddcb4f4518d27",
+      "bytes": 33934
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y128.pdf",
+      "sha256": "3cbe62387cea1ced387014d5456ee3f5f91a4971c224e6a23d89ed59ee617920",
+      "bytes": 32379
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/POE/Y129.pdf",
+      "sha256": "62f851fffe3a9d5a2c5565efe6cf3882aa3ec670fe16c7ce34bff05bc419f028",
+      "bytes": 34119
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y19.pdf",
+      "sha256": "ebe94aec6c8426eb8523a55cc78bfbe3e8f152dc455871bf1e56308002d13d87",
+      "bytes": 33336
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y18.pdf",
+      "sha256": "4fd0f8053f783a2c990b2a7704a37e761b1d625eea09ce9ebab9fbffd2ab9695",
+      "bytes": 31854
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y20.pdf",
+      "sha256": "59e273aae44fc32b954dbfbc7395d0a8ea01e9e3a5d2601e1f9f258aac590934",
+      "bytes": 32879
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y13.pdf",
+      "sha256": "7efd1a5815ba0356ebfa8df36b3f98495a49808843c65f3f2e54ca06eedd8d5f",
+      "bytes": 31373
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y12.pdf",
+      "sha256": "23111bd7662cedda707866ddc71e4ff1698f319608afa47491578ca605a84b4e",
+      "bytes": 31996
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y11.pdf",
+      "sha256": "d6b03123620304c5483c9ab137694fe37a156927ad01efd120ccf386728b6ab3",
+      "bytes": 32551
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y15.pdf",
+      "sha256": "aa9a5f9bfd0f67c4aab493e767880b79ae9b473c531b9a219824905f4acc6e35",
+      "bytes": 31870
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y14.pdf",
+      "sha256": "f496bca383b4da62e10eb6c9d17c3fa2e0fa26598f159b2dbd22cfb93940ae55",
+      "bytes": 31151
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y16.pdf",
+      "sha256": "92b287e6248f472efd1459ed2ae5250e0f31fa45fed7acb99fb183d730896bd6",
+      "bytes": 31218
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PE/Y17.pdf",
+      "sha256": "fcd28f76b672051185e62ae56f1ea1222e201e93bd441a194a94625c0230d8b8",
+      "bytes": 33045
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y182.pdf",
+      "sha256": "e04daba96e071f24c6d217cac9bcd8d5bd6eb423373272169679db9b39428413",
+      "bytes": 31110
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y183.pdf",
+      "sha256": "0461fdc9901c44e3072fbb9a65c47f36e3037e026b06f1904f91840b9c6ae3fc",
+      "bytes": 30484
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y181.pdf",
+      "sha256": "2d9ac47eb721b33b8a1306981776147e7a9a4d6db589aa9da23d31072dc08cf9",
+      "bytes": 30551
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y180.pdf",
+      "sha256": "02d73767ef0329b086fc55190f805148371e78590e08af3a0b7d09a9fb9477c5",
+      "bytes": 30875
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y184.pdf",
+      "sha256": "f3b3b28814ad1333beed711af5a6c1f38b478f271b0b9b44831da7d1c3c9b271",
+      "bytes": 30585
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y185.pdf",
+      "sha256": "f5169d940888e1bbc77f3ec473127c408b1d7ef5b38af856fa2346c795bd0248",
+      "bytes": 30474
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y187.pdf",
+      "sha256": "bc60da487b47559f7afcc88656af76b29c4396a3755bea52169aa813aa1e943b",
+      "bytes": 31664
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y178.pdf",
+      "sha256": "5c400c15149a1ff1f407c638229691c7f41fb87ea7362e3f3961e764a58d82cc",
+      "bytes": 30417
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y179.pdf",
+      "sha256": "11fd989f3d9251501e979a381adfb18fd01e44fd81a600b1d6005cae15fe690e",
+      "bytes": 30713
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/MABS/Y186.pdf",
+      "sha256": "07fb3cc204cc851a074cc5d010c297164805d527c7cd2d0b8de662328dd56832",
+      "bytes": 29654
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y118.pdf",
+      "sha256": "cd92428a1d46fce74144725b8613816493d72b4ccfa791c1dcbf5eb077bd90fc",
+      "bytes": 33040
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y119.pdf",
+      "sha256": "348f625032e01aa53bd252553c00af53b729eda75528f853b32d3acf6deb8a17",
+      "bytes": 33762
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y117.pdf",
+      "sha256": "98c81ab0e94d072f774e5b55462f6861e1ad44eeecdbf56e4dd33eb366136fc4",
+      "bytes": 32450
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y116.pdf",
+      "sha256": "e39de4a9e5fcc8f5f2531a71605459b42c5460fcfd8cc6d7f0306f8580be31c2",
+      "bytes": 32923
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y114.pdf",
+      "sha256": "231814bd34e416415c5d68ae7a71a213b78db91488ea78e1d1db36aa3c366bcb",
+      "bytes": 33207
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y115.pdf",
+      "sha256": "b1eb5b2424557f552696c028aeffcb169c17e24074ec0e917bab2f11b17fed73",
+      "bytes": 32466
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y111.pdf",
+      "sha256": "8b2ef260a469fe413e4947e241a87502498b6ea45cbe010d8a271bfa02b55588",
+      "bytes": 32526
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y110.pdf",
+      "sha256": "1188417eecfc3ff6b68b3a320f836c3d775b8c7ec061620b922e7078362fcc79",
+      "bytes": 32698
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y112.pdf",
+      "sha256": "7d7e937478e74aa840411a338af485e62ba3401ec450fc9ea2a054c0e1ebb985",
+      "bytes": 33325
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/LDPE/Y113.pdf",
+      "sha256": "d376c0d19b72e9a633cdee42dc9d4f7042e7ad91e8968b386c52e7ac508b9cb0",
+      "bytes": 33159
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y79.pdf",
+      "sha256": "aabfd4353f3cf5f300444fa3a098d9c4a7411589165dcc43347687a811510638",
+      "bytes": 31839
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y78.pdf",
+      "sha256": "8b716e8f8d4ff5ccebe9f6257ee57ad777067020c93277f006d4a483ae2557ac",
+      "bytes": 29412
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y80.pdf",
+      "sha256": "27a5c2ca1c2fe6f54f9fed16cc0012f04861c9da5cba349ec031d67b5afcfd42",
+      "bytes": 31133
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y71.pdf",
+      "sha256": "e2fc409a3e7d57d51d5dc1e5dcc6cd62c184fc60e65db002a9dfffd2780c73a8",
+      "bytes": 30959
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y73.pdf",
+      "sha256": "42bd91683e120c854ac8a2826efbf34b8995668415457029f5d0ccea9c758826",
+      "bytes": 30247
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y72.pdf",
+      "sha256": "9be94c809ea8a71b1085d7647096eadd76a8fc0c86fb5ff0e0261c4f33c255a7",
+      "bytes": 29719
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y76.pdf",
+      "sha256": "65a38df1e8a68112a5b93262e9673a8aeb2feed501f816d580eb955da8d75edd",
+      "bytes": 29479
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y77.pdf",
+      "sha256": "686988b5e8eabc2835bc70ced75c368650f1c047a7588743994d561830ddd6f7",
+      "bytes": 34522
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y75.pdf",
+      "sha256": "5de0c8b0f86a9a75f8c6b750ed3b1390422996727142e3ceeea6b42f0831c79e",
+      "bytes": 32768
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PTFE/Y74.pdf",
+      "sha256": "0cc04d2a6a1e6f7dec02506f9115494b252dc1f8520824612eb83f033c3f4de1",
+      "bytes": 32368
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y86.pdf",
+      "sha256": "4c41d5155124a8da6b82095d341ccbfe1091574c41cbc69330b33083ab9d1b70",
+      "bytes": 34146
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y87.pdf",
+      "sha256": "2299cf5c98c68d57b9952ec80283e6dad3013d6a0136d9880071ae2ad7d1297a",
+      "bytes": 31857
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y85.pdf",
+      "sha256": "3651a92d80eecc0e79bee88d84756805043a4deafc3ae7a8da0b844ad1ec5b92",
+      "bytes": 31008
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y84.pdf",
+      "sha256": "5f6d1fe007bbc80fbffc96b43e9353b1c4fc2fdc4603b9064b6c6a7da518063a",
+      "bytes": 30617
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y90.pdf",
+      "sha256": "24c6d2c7eaa0e1cfc6fc2ff455150a93b11ef9269bdcb1df38fd1e660a19e180",
+      "bytes": 32465
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y81.pdf",
+      "sha256": "4c172e29902629c1c4ccae477bf92458162288cd354f388064cf0e73e4414b5a",
+      "bytes": 30984
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y83.pdf",
+      "sha256": "c36c2157025ff6aea5d959b59a4b2089a4d07bba976f45c3932126fe3623be1e",
+      "bytes": 30275
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y82.pdf",
+      "sha256": "bc7be5a8ddbadaa78643ecd137e13cac91df3573c0f2c6800f24b0632e5fe288",
+      "bytes": 30997
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y89.pdf",
+      "sha256": "4dc042382557cdbef3d213548921bace0f6ec2512495a805799f3dafca10e274",
+      "bytes": 30966
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/ABS/Y88.pdf",
+      "sha256": "7fa2356c2ac38d6e4bfdb4f9f697613150db0978241f9846cb6121cc7e18f719",
+      "bytes": 31057
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y68.pdf",
+      "sha256": "6ce0e7beb4965c1984818bf63253f9ee7ab9b7af0c6fbe7dba05997ce144f56b",
+      "bytes": 36200
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y69.pdf",
+      "sha256": "227e1610164a94a5f335002f2f4eb42a8732a3bc7c5488610b57884d37254828",
+      "bytes": 35715
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y64.pdf",
+      "sha256": "d6979a8b0ce3b3f73fc882215b3489f79924b06956ff70b3ddce55742960184b",
+      "bytes": 34328
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y70.pdf",
+      "sha256": "38a03bb4989c31c2912fdcda63b40d20e37a9145aa7922bf21750f5aa3ad376a",
+      "bytes": 36055
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y65.pdf",
+      "sha256": "0eeaa39ea2198a4f384f359a32d2e99dd15e3706da494bd9a861f78bab742005",
+      "bytes": 36010
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y67.pdf",
+      "sha256": "a924f74e76717f8180940b139faea6d04ddd7e74337d360f31fdcb9a9fad773d",
+      "bytes": 34871
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y66.pdf",
+      "sha256": "2f03c1011f448a5bcf81f45ee34edfacde55a513013d3f12dae675add469e4b9",
+      "bytes": 34751
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y62.pdf",
+      "sha256": "e7e6996dd805418b8c7afe43915088e2b6e4654cf75d384f5b83fdd60bc0c5b8",
+      "bytes": 35718
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y63.pdf",
+      "sha256": "309be45422a7b750e71600956d6e693b11d7000f6495e63a11fa1122682469d7",
+      "bytes": 35698
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/EPS/Y61.pdf",
+      "sha256": "995e95faf830694e5b64cf0a60bdd936e3a3cd4e5840fd20276dc3bf616f2252",
+      "bytes": 36285
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y26.pdf",
+      "sha256": "3b39bea8a3d8c0065263a88f3b4697a04596bb05b322613ce28d3f3e14a04a11",
+      "bytes": 31539
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y27.pdf",
+      "sha256": "bb4669d40164f9e79e130d083b45523933034fec9988fac69168ced58e3e2bbf",
+      "bytes": 32312
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y25.pdf",
+      "sha256": "4eaaf223b7821b26e48047ed961c801051028997d25a3e53199966fba8030d18",
+      "bytes": 32433
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y24.pdf",
+      "sha256": "6e1e0508a80e3360c1a8ac5ed3f3554334c566762aa6599c1c543d6674f8cb10",
+      "bytes": 33318
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y30.pdf",
+      "sha256": "1b6f5bd670f7f11ee245b6dfcf44f92fe2c7accb428b5985ac7a2421b274cca2",
+      "bytes": 32447
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y21.pdf",
+      "sha256": "2ee404e1f96b837838e9c84bbb2d0a7a32a0cba8030a0ec45b6eaa2146b1fd95",
+      "bytes": 31781
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y23.pdf",
+      "sha256": "c04f26bab85d23d1239f55149067cde716ac8697e9e1b8d653667d1b600ceeaf",
+      "bytes": 31867
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y22.pdf",
+      "sha256": "c13dfa63ef42aee11b1e69bd7254d9f82bea7625b9fd4fd92aa50087676103c3",
+      "bytes": 33367
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y29.pdf",
+      "sha256": "48323c1eeb9b9f78b7d1509555f31de5f35034963fd2da06e0c1c7e7b1490e41",
+      "bytes": 33283
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PVC/Y28.pdf",
+      "sha256": "a39b8184f688b471d4be0da6c0a073dbbb4b1a35c074b2ceef221a7e4518a7b2",
+      "bytes": 32236
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y169.pdf",
+      "sha256": "eca4f899dc130b0cbce92cf5fb5a64751758f941159fc8c444b135cec75fb04b",
+      "bytes": 33867
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y168.pdf",
+      "sha256": "f8c8e43b93e3f04e01cc65ecfb62db1f9a18826b973d938fc0eefb25e1166ec1",
+      "bytes": 33530
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y174.pdf",
+      "sha256": "88eb483e30b65c088d4ddf644e9213c7a533fb1853e916575512fea2b2eff38e",
+      "bytes": 34386
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y175.pdf",
+      "sha256": "eabab8137a6f19b241fad931b2e34ba2a1aa35be69040ef4329fbf50a1117cd2",
+      "bytes": 33376
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y177.pdf",
+      "sha256": "5fc5c593a8f5daef5cfc0647f133be5e03e4a64d80dccc22e5e9882e6cddc6b9",
+      "bytes": 34376
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y176.pdf",
+      "sha256": "4c7b496a7b94a72b710529cecee0ab1389dbea215c1fcfd197398d61f188b5ae",
+      "bytes": 33650
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y172.pdf",
+      "sha256": "df1a96c1b82152704d9da29788c3d8c2cdf7445f66cadbfa3d4a840748230d26",
+      "bytes": 33609
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y173.pdf",
+      "sha256": "78c220175b1f1357ac46a618eb04a8bac013d17d772391644b50783ad6eabfaa",
+      "bytes": 33062
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y171.pdf",
+      "sha256": "16e3ba7014528d1a2b88e1fda64461003d759cbc2f027caac6ec0e07aa5a8f5a",
+      "bytes": 34228
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPA/Y170.pdf",
+      "sha256": "ffbd47c9920808ac03e5e505cdcad3869ef446a63c16b6dd659aefd01946aeae",
+      "bytes": 33019
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y51.pdf",
+      "sha256": "98f5f45f8c7773e68dda5446c68cb21490163784879540b339f55d4fc1cc5a6b",
+      "bytes": 33863
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y52.pdf",
+      "sha256": "72634e65d02c8c5b87c01fe69db9211cbccfc6e577c7789c0c70fa60f7916c0e",
+      "bytes": 33793
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y53.pdf",
+      "sha256": "0cc3658289a01e9a2837ba3883be579e7f4d81bad93eae248ef2cb9e5d76707e",
+      "bytes": 33851
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y57.pdf",
+      "sha256": "3e1f9969478c622f023e9f38ee9bf26d4e8446d25cbedda61283f319fe9891b8",
+      "bytes": 34304
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y56.pdf",
+      "sha256": "6de9f9c17d604b598c71bb1eb938faa385dab6c335948c9848903a354eff703d",
+      "bytes": 33327
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y54.pdf",
+      "sha256": "d6182d2b398c3495ad9cce91039a80e9e18b33a54b7dfca4985c1a5810b6feec",
+      "bytes": 33597
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y55.pdf",
+      "sha256": "efc64162bf9179abcc19b8f281d8c6581e69d1a1a54e040ebdacb30031f0ada2",
+      "bytes": 34011
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y58.pdf",
+      "sha256": "ce6d05c37d2c2a7c778761bd402625c470d8301e15dd299c8c35f90b19b5b3f2",
+      "bytes": 33797
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y59.pdf",
+      "sha256": "d86344a2c6a9b3507408fb52af7649066866bca0e71f5ac7bd9daed666cba54c",
+      "bytes": 33834
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PPO/Y60.pdf",
+      "sha256": "87d74bc7b357fac337edfb0be427f1c5f08f9e40709f26ef699a011811550667",
+      "bytes": 34015
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y92.pdf",
+      "sha256": "ad6c1102a4aba658f1205efb40b2f0f502658f63a597cb14491a27d3d5f0f3a4",
+      "bytes": 29710
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y93.pdf",
+      "sha256": "529cdf2a42880e2cc41582e6ce8167fff1ede5457149dc6d96dbf62fd3cd1970",
+      "bytes": 31319
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y91.pdf",
+      "sha256": "b525130f1c32bc7aa6480d39d5c561c15642190008c54baf72815d9f42a1e17e",
+      "bytes": 30181
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y94.pdf",
+      "sha256": "15f25dd39424c9c763298c463b1574c5269e95adbd4730e01bd8a8e29aaa5548",
+      "bytes": 30955
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y95.pdf",
+      "sha256": "968b493779291675120d279b89feb77313b6e56144dabd349373d27707c30e85",
+      "bytes": 31499
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y97.pdf",
+      "sha256": "bfe1ce5fe4112ae1971acda0d113a0973c03d6dfd4f2e44cbb83380914b0b343",
+      "bytes": 29567
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y96.pdf",
+      "sha256": "468a8d6b7ca20a92708fbd68e3bed34121020dae4e6b625408006eeb841cef99",
+      "bytes": 30999
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y100.pdf",
+      "sha256": "347f2e43780acd2a3e55768c2b49cd7826080cc2131529a1c43a36d90e949db9",
+      "bytes": 30090
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y98.pdf",
+      "sha256": "aab4c405a5f3ba2e8bc8dfd039809c76106d2c6eb7615e80e67d603ea5ae83de",
+      "bytes": 29807
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/TPU/Y99.pdf",
+      "sha256": "d10cfee59b6128e47ae3463e582712ebe65dd197a8ecc48ed75470d20d02c2ee",
+      "bytes": 30162
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y136.pdf",
+      "sha256": "bda34dcb35772d5199dbbc6d1b8b87bf4f9926c117df00a9c8194ba490586e35",
+      "bytes": 35630
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y137.pdf",
+      "sha256": "33ce4a93dcbaf0aa8f97bfd3f3ed8736181b55ff31e644b9dfc15cb398102060",
+      "bytes": 35191
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y135.pdf",
+      "sha256": "d04bcccf87c4736658a07be55cc495a8dfd5475f5892e833d0d0119cb744c601",
+      "bytes": 34505
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y134.pdf",
+      "sha256": "3711f20c7cecdf6a6b4edaa1e14e050b5e0064bb335919cc6a9e1cd0d51635b7",
+      "bytes": 34768
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y130.pdf",
+      "sha256": "906eb76605d9cddc86754350fe02793e96db51a564366fa8c86194d3c62240d2",
+      "bytes": 34891
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y131.pdf",
+      "sha256": "e356bcc709bf955b8dd79da0e17dc86dc12b451e613238b75efb32f1b2f67427",
+      "bytes": 32118
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y133.pdf",
+      "sha256": "91c764042615dbe21524c35be0d447ca07a29bc95bb43c951c6c3b7f5388b50d",
+      "bytes": 34619
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y132.pdf",
+      "sha256": "b7ddaa5d4bdcd2fe6f50182c75e2e1b2e7504771ba32e89da55a4313bd0f8631",
+      "bytes": 31134
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y139.pdf",
+      "sha256": "4f29fd0f88e1d0d9a4d8295143f9635eeffad10a00ca84aa4dedcfdba9925012",
+      "bytes": 35794
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMAC/Y138.pdf",
+      "sha256": "9189d92db7523a73375613826c2931756d7570879c832fc041d311ff6e8516a0",
+      "bytes": 34549
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y40.pdf",
+      "sha256": "92cc7bbb448241f335a4e689d5a863e50b6e21fc173685699f9a84f26cd2719e",
+      "bytes": 30777
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y32.pdf",
+      "sha256": "b87f6d08290b3718a5fe03fc98ca7cda4af8abcda80c160e7b24107c5df74156",
+      "bytes": 29899
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y33.pdf",
+      "sha256": "d845ac1d76760cae5cf606e2c7ebabe9f217d11fd90278b998ff163c4113e66d",
+      "bytes": 29779
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y31.pdf",
+      "sha256": "2756579923fd867715b391ecf9095bb78bc93114deea28b6fdd9c21c2106ef8e",
+      "bytes": 29953
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y34.pdf",
+      "sha256": "f598db78f7b5acb6757755a736842f77b1fb351eef964108acdc84dca00ef2d2",
+      "bytes": 29534
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y35.pdf",
+      "sha256": "30a11ebcd381ab1f0c20e323d0b8afd8d2535f562983d4c4b7a0c5d870e6d5c7",
+      "bytes": 33159
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y37.pdf",
+      "sha256": "ca7770be1cb7cf59f49cebb2faf62d26af6014d2cbb9662cc64f626cc7e2cda8",
+      "bytes": 32060
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y36.pdf",
+      "sha256": "8a7de554ebb8bff46a97d95eabcfb130e16949d1ce0341f9d946b2a3450adcdc",
+      "bytes": 30305
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y38.pdf",
+      "sha256": "13bad854a6f8d8d64e797095d8cd8d4d87bfecd98f42149bc0c7a3f463582176",
+      "bytes": 29772
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/SMMA/Y39.pdf",
+      "sha256": "f4408fffa85e3a07e3e4e2a0737536932fa8e0dfd10d3706d20dcc9b818728a3",
+      "bytes": 29366
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y155.pdf",
+      "sha256": "5d51ac9a5c3d122cd3e33284f199c6b4ab5382a65b1fa25be298e55391014f9c",
+      "bytes": 31722
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y154.pdf",
+      "sha256": "6caa59cce9777b2ff13e069e793685693b1984e0e7a4f3323bbfa320ece3812e",
+      "bytes": 30829
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y156.pdf",
+      "sha256": "f1bbe8ee696b65d91af1485323bfe257104b783fff7b8ba634f5dd7f48f7e617",
+      "bytes": 30291
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y157.pdf",
+      "sha256": "188cd996c043c04d2ccc781b263bf88e8d230edfe3e648ad61fc62951e216caf",
+      "bytes": 29659
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y153.pdf",
+      "sha256": "656463b4ef0d63317623c039d3174dfe08d97e9b912aaf2ac49daaeb0a53762d",
+      "bytes": 33344
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y152.pdf",
+      "sha256": "9ab65bc4bc3a41ccd16a666c6f896adf59cce75a2fec57843895e09d8efccfde",
+      "bytes": 31143
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y150.pdf",
+      "sha256": "d5dfcff88b26f8f63a30e36f75f736d71c6cdda1f016e652cc77e49a5c038aef",
+      "bytes": 32197
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y151.pdf",
+      "sha256": "af37ad90b1734502b6dc254bf4f6860a8d48634132c2c1e1cb1a37d854c11521",
+      "bytes": 31417
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PA6/Y158.pdf",
+      "sha256": "9339c0fb129e8647edf22a6e116c56300a68025764fa11696f0f2b517304cac3",
+      "bytes": 29621
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y45.pdf",
+      "sha256": "1114e644989a13db8c9ade5a382fdaa6190d91a09e58020cb63b984ef327016f",
+      "bytes": 33866
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y50.pdf",
+      "sha256": "409e3bec44c70032b4105e61de50ba0b2d3af09b17d69a980f186b30286f8d53",
+      "bytes": 32168
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y44.pdf",
+      "sha256": "f4ba86285cebd99ceaf1fdbb1b3e67eeb48d2a870dade6c54e1d6828bac81b79",
+      "bytes": 30704
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y46.pdf",
+      "sha256": "3317e510ab55b16e824a99d5bcbe7fc2d0366606f81e4f6897d2c155bf081651",
+      "bytes": 34193
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y47.pdf",
+      "sha256": "a2c4543998fb7369dbdd18e2dac1e747d2db01ea5fef0eb4533fe3990cb474e2",
+      "bytes": 33658
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y43.pdf",
+      "sha256": "a321ea0a6f026ad1ab05fb5f47b45accc0e1d3992592975a23c6d997fdc2f6b4",
+      "bytes": 31397
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y42.pdf",
+      "sha256": "92ff7586f61cb5d8f3fad0c7f987867fdeaf66895a7e2a4d04f7b2c575804c66",
+      "bytes": 30541
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y41.pdf",
+      "sha256": "650bfc00c606a934bedf05243e682170d4c0f4663fcbce71d39dcc152b1fd34e",
+      "bytes": 30701
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y49.pdf",
+      "sha256": "86e5c288806525d0d4994921fe1c75c915534ef4b9f159346f27261aa6139094",
+      "bytes": 31017
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PAR/Y48.pdf",
+      "sha256": "25e54dc763abdaa7ed8fae7eadfa6ce9f06e36edc348cbcf3dabd48783b2b10c",
+      "bytes": 31285
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y160.pdf",
+      "sha256": "a2625907f511d986c57a6d62acd8d3c3fe29d11224a959964bfc87febf393bc8",
+      "bytes": 32925
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y161.pdf",
+      "sha256": "87694f74a89175ae32cdfeb97b4b18073b916dbff498ce06d5801750b21ead80",
+      "bytes": 33931
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y163.pdf",
+      "sha256": "f6fadc0c35995603041a40309cbb4ed3da896f2fbf933aec9a2500a8c1c4eeac",
+      "bytes": 33114
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y162.pdf",
+      "sha256": "fe2b6aa137b21c1805c9e17b1f06c1dd094f49c06f216315792ef73b296d6266",
+      "bytes": 33313
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y166.pdf",
+      "sha256": "c5d714f2bc857767ab5efe13ffdfae0fcba4a5e14893a550b455462a3471ea51",
+      "bytes": 33177
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y167.pdf",
+      "sha256": "d0c383c88d7c87f701ebff2423855b35f2d038fef2e4e14c88b4626a438d98da",
+      "bytes": 34428
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y159.pdf",
+      "sha256": "2f6e410f0631c59e04456f2b4ee4f70f2077be4c5d23d16b9883c4abf7f1fc99",
+      "bytes": 34016
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y165.pdf",
+      "sha256": "3e33d7f3f27e0ee2f9064c9fa3335ea78907072ffa58f5195744814045198f37",
+      "bytes": 33108
+    },
+    {
+      "path": "08_pictures/figure/output/single_spectra/PBT/Y164.pdf",
+      "sha256": "36541d1b9384f5cbd98e98b5d53b06a3d601aa947ee6612b851240f26f901848",
+      "bytes": 33681
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Sn_MoE_OOF.pdf",
+      "sha256": "101fa6e0572f29177f2c1907a74174171bfae65b10b4255e8d4188cbc4bab022",
+      "bytes": 31642
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Bi_MoE_OOF.pdf",
+      "sha256": "f4170076043edd5442b25c94c089125dd9008062922a51d5cce7a10f4ebf31b4",
+      "bytes": 31350
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Sn_GlobalStack_OOF.pdf",
+      "sha256": "4cc66a32f8c695337b886388e80cdcc99ce7166d27488c0019ee1b9de729079d",
+      "bytes": 32676
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Bi_GlobalStack_OOF.pdf",
+      "sha256": "4fd1aebb21a670cda3af5315075ba2615570ba614d3949fd6725ed89da74142f",
+      "bytes": 32543
+    },
+    {
+      "path": "08_pictures/figure/output/performance/OOF_predictions.pdf",
+      "sha256": "a4abe53f200866adc84ff83a4923d9664bd5dd53c70c93b94325c286a4326acd",
+      "bytes": 52883
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Sn_test_R2.pdf",
+      "sha256": "fe15f7b9fa487e0ee6839159a79d3068e27f957b01320af89b889518c5cac9c0",
+      "bytes": 30261
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Bi_train_R2.pdf",
+      "sha256": "e2ceeb3a14d6acd4bce87792ac42cc7aba964b53bca787f721e040833a24adc8",
+      "bytes": 33370
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Sn_train_R2.pdf",
+      "sha256": "7665ab1d99fa74fe802069c0b691f510fab311932097939696b7fe7b6aa8c6dc",
+      "bytes": 33041
+    },
+    {
+      "path": "08_pictures/figure/output/performance/Bi_test_R2.pdf",
+      "sha256": "226ac584ff370182c9eed1a5bc0a89674381e5759d298327b698a8a87032e157",
+      "bytes": 30578
+    },
+    {
+      "path": "08_pictures/figure/output/main/Fig2_data_and_preprocessing.pdf",
+      "sha256": "41c7e310bdf96ab4badc28ebebeec40e55a8e0b31a3d9228f87264112d7b6fa9",
+      "bytes": 158540
+    },
+    {
+      "path": "08_pictures/figure/output/main/Fig3_band_selection.pdf",
+      "sha256": "c41aa6919e8646ed6c1426394a82dd51c453d00fc6d75361692f1122e7dc303d",
+      "bytes": 111855
+    },
+    {
+      "path": "08_pictures/figure/output/main/Fig4_model_performance.pdf",
+      "sha256": "130bf779917984fa5eb0b081f05d616bd49c3e96511b1c5ffb69aa358b041c22",
+      "bytes": 73685
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/feature_sweep.pdf",
+      "sha256": "d11211744a433acacd5d1a53a157e22e93a21df4b942a6abf9f9099226f2021e",
+      "bytes": 32182
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/selected_bands_fold5.pdf",
+      "sha256": "3e416301d92259ee74db84dbf57e326a8cbac07be039f77bbcd38447926a731c",
+      "bytes": 32384
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/selected_bands_fold4.pdf",
+      "sha256": "d3b31a8892e57c3948316b202674124dd851e262e59a53f8d8aa5c6d495bef6c",
+      "bytes": 32485
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/selection_frequency.pdf",
+      "sha256": "667d3271a0afb936a54476f129ef537fc81fe1b8a8cc2817552255670a07de37",
+      "bytes": 55067
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/selected_bands_fold1.pdf",
+      "sha256": "c07a1c62419dc6f18eece2f04cd3e226e5f0dd7dfbd09ad6d49f3f021b16d460",
+      "bytes": 32398
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/selected_bands_fold3.pdf",
+      "sha256": "8e66f7b0ca2dd5b6cac2b9d63d3797510a9e9b6ea2247152d43bc9e5730c862a",
+      "bytes": 32265
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/selected_bands_fold2.pdf",
+      "sha256": "19080038e149d5c1564276d47fd231de1089e1247c1e648839546ccfc71c8fed",
+      "bytes": 31711
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/preprocessing.pdf",
+      "sha256": "11cab82f12491966e491d7be9e93f83f948dc2b611a9d12ebc18ec5a48c95065",
+      "bytes": 46918
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/spectral_zones.pdf",
+      "sha256": "08cb54a379792e4259e0c5f8d2e188ad803c1ecf07a075b2710d963da0273ec9",
+      "bytes": 28471
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/preprocessed.pdf",
+      "sha256": "0457971d63600749f889d7765816979d31bd78ed2b07a8a2b5d58f7db415a0c0",
+      "bytes": 28275
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/top40.pdf",
+      "sha256": "3ffe48941bc4987043c93fd89187dfe67651b5509a0b58f9d07e99543462719f",
+      "bytes": 29311
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/raw_spectra_overview.pdf",
+      "sha256": "c677830efaf09f64d1a3d5dac5d723576df32ea8bb6095c6757909caf4df35a3",
+      "bytes": 98089
+    },
+    {
+      "path": "08_pictures/figure/output/spectral_panels/spectral_zone_key.pdf",
+      "sha256": "ef88f1740862880255a9d5ec3e91c7f78ff2c6d40ef79c8e6c997569422dec0c",
+      "bytes": 17095
+    },
+    {
+      "path": "08_pictures/figure/scripts/supplementary.py",
+      "sha256": "5b00ba3d1712fd2ffd2d7a9ffb848d59f1b5a61c82f26b9150c0432e7d58f335",
+      "bytes": 3224
+    },
+    {
+      "path": "08_pictures/figure/scripts/response_options.py",
+      "sha256": "6b0864034d558dafd8168b92edfc6b58a156bc1e9038cadb2de807d822c8b7ad",
+      "bytes": 6942
+    },
+    {
+      "path": "08_pictures/figure/scripts/audit_all.py",
+      "sha256": "650ecb0c05ddf6c1d18ebde347f5dd111a53cf7003b52e741e542101d109b13f",
+      "bytes": 2790
+    },
+    {
+      "path": "08_pictures/figure/scripts/publication_style.py",
+      "sha256": "f1e1e4bfa91726d2d975fdd40416e8569b7df855170edaac4861be3a453d9ba0",
+      "bytes": 2475
+    },
+    {
+      "path": "08_pictures/figure/scripts/main.py",
+      "sha256": "8dd3bc7d020374fbd970db86052f33c1b69977e0fba619e4eddda4ad5cca590f",
+      "bytes": 29002
+    },
+    {
+      "path": "08_pictures/figure/scripts/audit_panel_alignment.py",
+      "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "bytes": 39364
+    },
+    {
+      "path": "08_pictures/figure/data/top40_bands.json",
+      "sha256": "f91931501e1fabb6e6b6e03a6f7e06922922a74fd45270e65bd4b98b52f74077",
+      "bytes": 334
+    },
+    {
+      "path": "08_pictures/figure/data/sample_pdf_map.csv",
+      "sha256": "da7a8913319f74361772b2996a5c0c8dbd208865d58511417e1d30f4d311a7e6",
+      "bytes": 8073
+    },
+    {
+      "path": "08_pictures/figure/data/selection_records.json",
+      "sha256": "a2dcd1d0f35c6d43ac49f2dec8dc23075ff0ab93243d5d628ed850bb49e88b33",
+      "bytes": 2646
+    },
+    {
+      "path": "08_pictures/figure/data/raw_spectra.xlsx",
+      "sha256": "a18c5c3740f7b707d79aed4f44341886b66502adc059ba3bc66cb333e4dc567f",
+      "bytes": 2694051
+    },
+    {
+      "path": "08_pictures/figure/data/performance.json",
+      "sha256": "1b89f540aba3a6247edc770b3fc68905976847ea32e8cb18a8451ed0d09b946f",
+      "bytes": 4351
+    },
+    {
+      "path": "08_pictures/figure/data/folds.xlsx",
+      "sha256": "e2b6e310ca68962074cd3f3d4e1411deb4c2e94b458d81c8500956eeb33dd46b",
+      "bytes": 13274
+    },
+    {
+      "path": "08_pictures/figure/data/recomputed_metrics.csv",
+      "sha256": "492e1f33697c2519520fbecc73fa1827d952e841af53136c15f04827bddb9b62",
+      "bytes": 325
+    },
+    {
+      "path": "08_pictures/figure/data/source_checksums.json",
+      "sha256": "9bc73b3acb737e56f28f8b6f17b1af907fdda9617de92b78c1f6ba79c35df9f6",
+      "bytes": 862
+    },
+    {
+      "path": "08_pictures/figure/data/processed_all.csv",
+      "sha256": "bc79c4a686247c1b7ecaea79245a9dc16f345929d131e1ecc6b1f17afcb0f90d",
+      "bytes": 2814438
+    },
+    {
+      "path": "08_pictures/figure/data/oof_predictions.xlsx",
+      "sha256": "dcaf100a812ebe8a1b270cca4d5eba4347384b69589e21fc21a1b75742f3298f",
+      "bytes": 35619
+    },
+    {
+      "path": "08_pictures/figure/data/processed_model.csv",
+      "sha256": "1b1e01e044aaa34910a3fbe206e06698bba2d1417b8d55518ca8d8d363c679f4",
+      "bytes": 2177738
+    },
+    {
+      "path": "08_pictures/figure/data/feature_sweep.xlsx",
+      "sha256": "5f0a1bf7200e595a5b137ecc3db14659a540ff07d8387b80fa7cd1feb6733bd8",
+      "bytes": 15514
+    },
+    {
+      "path": "08_pictures/figure/data/supplementary.xlsx",
+      "sha256": "e2222218feaea741d1cc71ecb3ac85109f083fb1b94e78493259b45ec6c87882",
+      "bytes": 2733552
+    },
+    {
+      "path": "08_pictures/figure/data/polymer_inventory.json",
+      "sha256": "48a5ca1d8b17850ebdec3dfe88c2c6b0f6c2c79b02cc9cf96dd29fe7112684f5",
+      "bytes": 2907
+    },
+    {
+      "path": "08_pictures/picture_code/散点图.py",
+      "sha256": "715e1742fecc1646755d5ddc98753078a1abed63f12fc15608bbb1072afdb397",
+      "bytes": 7661
+    },
+    {
+      "path": "08_pictures/picture_code/附录图.py",
+      "sha256": "fe4951f0500af464b54d7daf9e84250dbbb6dc1d93a7e49dd75831840f4b2469",
+      "bytes": 3898
+    },
+    {
+      "path": "08_pictures/picture_code/nestedcv_oof_predictions.xlsx",
+      "sha256": "dcaf100a812ebe8a1b270cca4d5eba4347384b69589e21fc21a1b75742f3298f",
+      "bytes": 35619
+    },
+    {
+      "path": "08_pictures/picture_code/箱线图.py",
+      "sha256": "2c6e981471692364fddaa2521221e9ff5d40152a0defd66fa1ae7b5af4796653",
+      "bytes": 7958
+    },
+    {
+      "path": "08_pictures/picture_code/original.xlsx",
+      "sha256": "a18c5c3740f7b707d79aed4f44341886b66502adc059ba3bc66cb333e4dc567f",
+      "bytes": 2694051
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/148.svg",
+      "sha256": "a7fe825db110fc26da9de9b6a64204924161b3a83b6479db936e354f07fd2e2c",
+      "bytes": 63771
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/149.svg",
+      "sha256": "e3c0447c41f9c6908fae173f6858321d868e5d135625758dee9dae4fcfafb68d",
+      "bytes": 66156
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/147.svg",
+      "sha256": "51d8dacdf231c3a1d9946dce3f19de0fcf444d6cc752086f5f93d042c2ebe97c",
+      "bytes": 54677
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/146.svg",
+      "sha256": "f44e3bd0e3e04306b1d5040bc5a5e7e0495a841bb787d9d5a2512e80153d1ded",
+      "bytes": 58756
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/144.svg",
+      "sha256": "6a5bec57455a7ae8fe1e7921d0674e80e0839f8b93c5ddadd5658b68e38603c1",
+      "bytes": 59653
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/145.svg",
+      "sha256": "be51f078a116e8b4c1454e264bd2847e63ea8714324bf6e865c23aa5e018f7d4",
+      "bytes": 53833
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/141.svg",
+      "sha256": "83a947d17e252eefba06de9e78ab84cff18afe3f64ab0f394a71efd45afd2bda",
+      "bytes": 54046
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/140.svg",
+      "sha256": "7d016cac803708e4998421eead0d5140e7eee8c5651dee784cf55be7641ae11b",
+      "bytes": 54206
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/142.svg",
+      "sha256": "2f0fe97462ec8993e28e4c61dd54a6f0f63671989727dd84257747468d996cd3",
+      "bytes": 52948
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PC/143.svg",
+      "sha256": "f2fb5f99da2ed11ec1deea19d468a3828f95ffbcc9477b36ba260cf50a576322",
+      "bytes": 61122
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/10.svg",
+      "sha256": "d68c70d7de5827458f83b545863b1c9a196dd642ef979df44f174321ff76fb77",
+      "bytes": 70110
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/9.svg",
+      "sha256": "866a8de5bb484bf58ecf9427bca232b8ca2bbdb5ee50f9fa1921708868008e9a",
+      "bytes": 66657
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/8.svg",
+      "sha256": "693d7590236487b94fd59cc00bbb96f459ea7ac467cda6668b8c09d9b42fdf50",
+      "bytes": 67522
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/1.svg",
+      "sha256": "6e6011fb2ccd4ff3a2e5f8ca20238dcec3ff77d282bbd37d8da5bcc9fad40fc7",
+      "bytes": 68624
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/3.svg",
+      "sha256": "7e4addaf450cd6b40d2a4c55e4e8778e8d676e5de8624b0632328ff4871641bc",
+      "bytes": 64991
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/2.svg",
+      "sha256": "ec00aca49d36909dff4d4ea2162454746a80fec3052507a3ae43b404936890ae",
+      "bytes": 68166
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/6.svg",
+      "sha256": "5225749dd6fd7378ae800ef321445c56bf42f701ee1ec7cad64ae3da322f33a0",
+      "bytes": 68899
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/7.svg",
+      "sha256": "d75b7f45c7bf4a09e42112df8ffd48a1a68e05dff9d3132285b99f19a7b53191",
+      "bytes": 70585
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/5.svg",
+      "sha256": "3ef8c0dc144aba54e4a28e9e50a7d4bab255cc4d12a2e0c4a1e13f86683509b8",
+      "bytes": 67097
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POM/4.svg",
+      "sha256": "e8dff82f80e3f6d632c2851d15fb118b2d552f4a20f1f61ac09e5450f02e194b",
+      "bytes": 67055
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/105.svg",
+      "sha256": "59a83154403aa8ddba6a323d424e1a4df3c0ab46bde04d600a0d96688595cb5c",
+      "bytes": 64443
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/104.svg",
+      "sha256": "0cc42d0858a273d292c01299b8f94eb56fca11a8dc5e55fb8c751c41d9c4feee",
+      "bytes": 65460
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/106.svg",
+      "sha256": "6e9ed45a9a5421d2542264465e7c1831a1336a5f1b453c5f04022927d5356dbc",
+      "bytes": 67435
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/107.svg",
+      "sha256": "de44fbceece25bca81860cbc3265bb7b59a354bb6c76dd10f759eeb1d951cb4f",
+      "bytes": 70151
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/103.svg",
+      "sha256": "c3667d64ae11bf09b69c3ebb614486988d5cfbb70bebb155009e96a315419c32",
+      "bytes": 66289
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/102.svg",
+      "sha256": "7168413425fb974e82e8452c2e728b7e6db40f995e1bdbb0c24568436308edbc",
+      "bytes": 66061
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/101.svg",
+      "sha256": "94778d32424af9ec75fe408b81f336f7c46999fae1e3a326aeda06062b6dc55a",
+      "bytes": 64422
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/109.svg",
+      "sha256": "04dc7ef59d2687a6adba2696da456fa207abf6da671db61b2f6b9a47af926f0d",
+      "bytes": 67118
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SD/108.svg",
+      "sha256": "85dfcb15c1ebdb7753727ec008a200cdc8456c300acdc2f659509e0d01cc9d3e",
+      "bytes": 65839
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/128.svg",
+      "sha256": "2b4ff464e22f073dd738329305e85bad3f3f9dabd411e9adfaa0674cffe14a26",
+      "bytes": 65738
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/129.svg",
+      "sha256": "5023330be8c6afbfb0fbbc5c5d95cac6de545b150c15db09c143c321d108006d",
+      "bytes": 66776
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/124.svg",
+      "sha256": "5d048e188778a7450b81d1ed17a0126f662792697bcf97387a95cafbc47099bc",
+      "bytes": 65798
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/125.svg",
+      "sha256": "d49482174708baf7cd0151475a6afde2b9c5ef7d73e50f556649ce9513c666bd",
+      "bytes": 66096
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/127.svg",
+      "sha256": "1cd3c453d129ffc929eb84a26c72f4d63fb48c13084252f45a231a8beb42570c",
+      "bytes": 65690
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/126.svg",
+      "sha256": "c7adfd00f4fed683c16a6a790d6842a439435ef9fd5ebd5f39a771d20bafa6d4",
+      "bytes": 66814
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/122.svg",
+      "sha256": "aa44c2ea9a8fc8303c132ccc99a137001369d7cc5430f43e7de73f24c8560a98",
+      "bytes": 64553
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/123.svg",
+      "sha256": "7e7188d6375bf98c2a6dca0bce98e1b3e1b0c6926cd850745035c147ce6e7d5b",
+      "bytes": 66242
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/121.svg",
+      "sha256": "24f7ba36d9a07230268671d1b503395d12a80d9b0e085163cb779295297feca8",
+      "bytes": 64408
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/POE/120.svg",
+      "sha256": "804e5ce30b7c7e57f44b5fff04cd82d45264ce35e7d8a26852827729b54591c3",
+      "bytes": 65132
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/11.svg",
+      "sha256": "dab62cd5e7d5b5e7abdeb37ed21f179393ad2f807c11003998870531bf383f1a",
+      "bytes": 67039
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/13.svg",
+      "sha256": "33efbc9eedfe148a127fa73d84e5403b191acd247171ed34452c28b1d42236fc",
+      "bytes": 66694
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/12.svg",
+      "sha256": "ec0ec56958cd528922c739aa2af0f32d3abb104da066b072018193dc38857f60",
+      "bytes": 68591
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/16.svg",
+      "sha256": "26167d165d490ad4983df6fb34a2eda5795ecdc06438088be09e5f49e6bffe12",
+      "bytes": 66146
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/17.svg",
+      "sha256": "1fa562d29adc7f2f21131588bb7b8c6fe9f0ab0fb1673138be8ff576657442e9",
+      "bytes": 68199
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/15.svg",
+      "sha256": "ce7be80441d8310f227201b15b69243608114949db971b78ff9dfa0566065d02",
+      "bytes": 66430
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/14.svg",
+      "sha256": "5a89d3b360ff6e867e2ada1577fa4607d225c11c6d57c64921ad37cbe3681770",
+      "bytes": 66036
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/19.svg",
+      "sha256": "a2e05cd66bcfb94fadb15c4224aa2a6c798b90d29644df77f9cdee475a3bc7d0",
+      "bytes": 69076
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/18.svg",
+      "sha256": "2a14cc4df5bb98e144c9d5a7f85c9d2616fd973c8c7875bbae14f99a1e603c7b",
+      "bytes": 65602
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PE/20.svg",
+      "sha256": "6d243e13109a4bf3bea9c6a9a21b51fba13f945c8c270e3eaace3101f27840bd",
+      "bytes": 67632
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/184.svg",
+      "sha256": "c3a8ad8fb021a1ebf428658474d416f8f9867c9edb30c3580caf825d48b26aea",
+      "bytes": 60983
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/185.svg",
+      "sha256": "47f98aaf69f7948d96225ea7294965f404741a8b30c2190a80100fed86219165",
+      "bytes": 57444
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/178.svg",
+      "sha256": "99d2cad2144b881c81738b80a976ce67c68f6c03e82458c8e74f601d5aec1d7d",
+      "bytes": 60140
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/187.svg",
+      "sha256": "1afcfb7a6786f2f89f44090088a2d4aa65a6433a487f647120f263e75986b0a5",
+      "bytes": 62193
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/186.svg",
+      "sha256": "aea7ccb16ad76df249518deb85f5ecada4e4b3ffa3144b4c059e5e9d37884f02",
+      "bytes": 58051
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/179.svg",
+      "sha256": "ba211a0a52768d89521496b55b9899b599dc0b887f82b8afdb8112dc318be892",
+      "bytes": 57580
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/182.svg",
+      "sha256": "d5d480adff318b8c4679680e341deed0bbb65f38ef8aad1d54a6d61b9875d810",
+      "bytes": 63706
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/183.svg",
+      "sha256": "be27db5c107b560e3d99b5bb51ce628859f7bad33ce1431b5b47667fe800c004",
+      "bytes": 59497
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/181.svg",
+      "sha256": "fa315498000fe4d9aaaf1a592c040d1f0117d7636bc30c3434dcceb7f6d41e13",
+      "bytes": 61948
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/MABS/180.svg",
+      "sha256": "9f44ff500858675ea0551c7e10eb4d3ea194abe7beef9dc36b5e063bc6a63e7b",
+      "bytes": 63481
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/111.svg",
+      "sha256": "b8cd3c533a4c5de417702d9852a1133d2d2d531288e078e1e1ec859385417805",
+      "bytes": 66249
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/110.svg",
+      "sha256": "16bab16a8df31f7b2e2a2849a8effd5ad50e21867e022ce7758a22753ed75c90",
+      "bytes": 66842
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/112.svg",
+      "sha256": "4004ac26de067dfcfd0b91dfe763973b23eaa17b7a4f97920a84c54dce9de440",
+      "bytes": 67666
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/113.svg",
+      "sha256": "86eacf53a97ec84da1336d02ad9d077d4ecd7f557b8a3bd1b00d0951e934d467",
+      "bytes": 66573
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/117.svg",
+      "sha256": "f45f5e2c6882f2dcd507a3a8aa3af5b0d6e6990d44496012c2816550018c1208",
+      "bytes": 64747
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/116.svg",
+      "sha256": "7daae24cf9602dfac6c6c3351e8673d6febd2556202e78173b22f36d7a564088",
+      "bytes": 66393
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/114.svg",
+      "sha256": "78b2d0ca59a909bacfeaebfaeea30e104c70f7718d2cad5c5e02b312d7349cfc",
+      "bytes": 65838
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/115.svg",
+      "sha256": "6cee019efeee28764bb6cc9552d9a039d029534bb398b24aa13327b754720511",
+      "bytes": 64483
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/118.svg",
+      "sha256": "a24e14049c0651c0c810e3eaf26960d4359532e32244b2a2ef96164a018c1883",
+      "bytes": 65297
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/LDPE/119.svg",
+      "sha256": "a50b758dabc0e8564487805224854827a0a5b4c90652f88dc922e016260a216c",
+      "bytes": 67047
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/73.svg",
+      "sha256": "ee0762d4919205118c3b1132b45c51676fb019aa97fc0c2d1b37638c093bb462",
+      "bytes": 64249
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/72.svg",
+      "sha256": "a2955efe3e23b0e011c7f5d0641fc481cd668abb3f49e3bf6c75112ac850f280",
+      "bytes": 63774
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/71.svg",
+      "sha256": "659f3e0a863bf26d42e95af37393a2286598837d0ec68d128339dee7f026f692",
+      "bytes": 64865
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/75.svg",
+      "sha256": "6c0dac5e12e896cef89b5b912c4e1f6e284af9e2bd10be1cbcababc6a20bf0ef",
+      "bytes": 66892
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/74.svg",
+      "sha256": "2a3ec6387ebdad47cafb9c3013a12b01fa7d71bc0f99549dff367f875249b099",
+      "bytes": 67442
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/76.svg",
+      "sha256": "9e589536cdeff606978d3149a19dd64361fc53f65e733748179ce0250d31aabb",
+      "bytes": 61682
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/77.svg",
+      "sha256": "60fc88ca61f3c9e7942a683b538aaefb5b4017f701c7fcd8f042c9e1b75188b6",
+      "bytes": 68012
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/79.svg",
+      "sha256": "5e7e90b9fc617e3f902ca67053202d6122e007fc97d1c8aec14192f2c27ab4d6",
+      "bytes": 64433
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/78.svg",
+      "sha256": "202b4cfc08c4ecf8ff5629f29517a965ab5fb6fffc8227882180b3be7d5a54bc",
+      "bytes": 62075
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PTFE/80.svg",
+      "sha256": "20bfbf9892971402f42fbaa6af0ec912b61df60b7ef5a9ee477238698b3ba1f1",
+      "bytes": 66696
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/89.svg",
+      "sha256": "197a38715ce226e51f766a801392c9ae9eb91bcf7660155a86288c144d930ae4",
+      "bytes": 64111
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/88.svg",
+      "sha256": "5e28692d938c13e3a22d95f72cff006cc8244da1656805726a6f7776ecbe335a",
+      "bytes": 66137
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/85.svg",
+      "sha256": "de653f0e4cecd459519361a761c116398f921fa758bea965f46ac212e1a5eacc",
+      "bytes": 64575
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/84.svg",
+      "sha256": "1217c106de0847055f9cb68934a861081d4ddc1e92c5898f5d746fbdfdc3dab0",
+      "bytes": 65095
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/90.svg",
+      "sha256": "0cf28283565c5be9812771fa0da5ea77126aecfb09f6a67d8dc96915680f226a",
+      "bytes": 66041
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/86.svg",
+      "sha256": "c656c5ed6afb7ecd993e9c563a0b4055d367f04713e2c194dc339f737e5a106a",
+      "bytes": 70425
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/87.svg",
+      "sha256": "1613bc64353e6839e18a2000b0cbffd6c3fbd0889b471d733f4a3e4d72724694",
+      "bytes": 66243
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/83.svg",
+      "sha256": "9de2ca5a1044e87f8c5494d273f250da0d16f1fef7f3d8a668b5d965f91dfb9b",
+      "bytes": 63455
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/82.svg",
+      "sha256": "59cc399aa604eaf751d046eb34d10a07b58065f928b75d96abbb07a9a4eb52ee",
+      "bytes": 65447
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/ABS/81.svg",
+      "sha256": "9bf3fb1ca7f50fb9f85323464bd00e99186dbce4508021c5ac08bfda0e76b39a",
+      "bytes": 64561
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/67.svg",
+      "sha256": "cc820cbb0bedc691d7ecf5819b2421e9fe0db1c28feca45ea0af5745566b36a1",
+      "bytes": 71215
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/66.svg",
+      "sha256": "0edbcc40bf1a376497e88d31559a7d7f4c228871c3e75872469b382743229a9c",
+      "bytes": 72711
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/64.svg",
+      "sha256": "9d302b74eec5d9addc29555e7c8d0e2a23e0976c19bf90c477b7fe7e2d12ed8b",
+      "bytes": 73594
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/70.svg",
+      "sha256": "f03a12cf7d5041abdb1dd58501636f46ed68a6758317909522f9105888fb172c",
+      "bytes": 76020
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/65.svg",
+      "sha256": "5f054f03a9fdbf197e6ad40f9cc4b381f401a1fcfac9369733a4309c9b299132",
+      "bytes": 74404
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/61.svg",
+      "sha256": "794b999bb8c7ab210ad891dc18128d8e2641ef13111b720d6d36c0e659d7a158",
+      "bytes": 75363
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/62.svg",
+      "sha256": "a03c9e7a6fc28c313601334062435d2d9ec12f07cc7527d8498a181312712252",
+      "bytes": 74363
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/63.svg",
+      "sha256": "db6013f11dc18810deb3c83159bac48a3d2f4b2d8a3809a35462c960eaa296a9",
+      "bytes": 74038
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/68.svg",
+      "sha256": "ed712bbbb96d2dca848e3bd1c9fa9f45fe3e4c1c0e4fe8274d2130011cc5fbdf",
+      "bytes": 73972
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/EPS/69.svg",
+      "sha256": "d49497bc0164dd1a947b9ad7e0a72c2f57449302face410630080ed64dcc3890",
+      "bytes": 75876
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/29.svg",
+      "sha256": "bbba39bc4ecae5460a200f209200561e92c7da6eb8960da7d370ba32268789db",
+      "bytes": 65205
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/28.svg",
+      "sha256": "98b4bc5aaf911b52e7b81c032ee9f1ab638bef5a61c285949b9a948674cafbc2",
+      "bytes": 64297
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/25.svg",
+      "sha256": "11f5b2bf2902d30f077a2cd85aa6a5af216ab6cc469700a22c86aa33abb970fb",
+      "bytes": 65204
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/24.svg",
+      "sha256": "89c041119e9ea179bdc5aeba8dbd5cda9861dc89d3ab28b09e941f64eec4ecd2",
+      "bytes": 68529
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/30.svg",
+      "sha256": "727c08258c6de7f57d1222a957020048730c5a83fa92926a1f036c50b656cce6",
+      "bytes": 65643
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/26.svg",
+      "sha256": "13e1791124d6ebbda42288b0068ecee78b6d4f9d4eac98cc0c9f834492c36e24",
+      "bytes": 65618
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/27.svg",
+      "sha256": "cc559eb3b03060811fc62cbc4a6b095433a087d3c7119b3f679b997ef2b18fc3",
+      "bytes": 64440
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/23.svg",
+      "sha256": "566ec77c3c1ec4d9075821f581016b2c85b48258cf4a928505a75ee4da72dd0d",
+      "bytes": 65308
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/22.svg",
+      "sha256": "f75f0a7a97cd064f9f90a8468c088af122c34d612dde1dedb32c8ac126085811",
+      "bytes": 66066
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PVC/21.svg",
+      "sha256": "3a5ba95c214291ce017ca688a3a1cd440b3b27d3c2bf1bcdeea5470861295579",
+      "bytes": 63377
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/172.svg",
+      "sha256": "b2f00147f91e133460c98f1628fdc222ea342d8a887d321430bb6a31dd93b675",
+      "bytes": 67654
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/173.svg",
+      "sha256": "178f73341f3ad8089ffb1de26e736aca0bf99db6fcde61ccd16f3d12628e5869",
+      "bytes": 66181
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/171.svg",
+      "sha256": "624332173bb69d5ca198edb3da638dd4230cb9d43c34cbdaa08ef3bc17b6a9b5",
+      "bytes": 67105
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/170.svg",
+      "sha256": "18c60e92c378e11cfaaebb3604a4feff26b215b9aae3bbef98b44fee00598d48",
+      "bytes": 64865
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/174.svg",
+      "sha256": "371b9ac416be473aacda9a0c1e125d1af0ee24ec257010bcb8e4409d7c14d994",
+      "bytes": 66661
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/175.svg",
+      "sha256": "a55b94dc7db250869d7ce8b279f2f714fc685f048ad3a96f2baca9d3adbf04f0",
+      "bytes": 66228
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/177.svg",
+      "sha256": "b52f2fd77b0f86a5e22b3d7426eace59419422125a2c30314a5156a4613dfda0",
+      "bytes": 68315
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/176.svg",
+      "sha256": "0a911d8b408cabdc413198a4aa2d4e9bf3b1236860c5d676cb99279be47f2fea",
+      "bytes": 69326
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/169.svg",
+      "sha256": "02e522bc1b5ba09d595bb8837724ac66c813503a29c74d274915ee91441a8f0a",
+      "bytes": 67499
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPA/168.svg",
+      "sha256": "95c46385af0c858db471816340819cc13c47cd06dfbbb97ca84f6d974c7d0432",
+      "bytes": 69751
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/58.svg",
+      "sha256": "a120bf899a05bee56e1e991130cb2fefa89a1e1c641d641a3d60d568d1e6b1fb",
+      "bytes": 69043
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/59.svg",
+      "sha256": "9a8bd3510d5b0aceea550af557532303e13ca4b388009f77fb40d8d5fa2b0922",
+      "bytes": 69621
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/60.svg",
+      "sha256": "2525734e9f887744330a0384d13e68b1ef1d36044830fc50018928becd763a04",
+      "bytes": 69152
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/52.svg",
+      "sha256": "626730f2a5ae51647902dcac6bf10d4b523aefd991b222f25888e874605ef40c",
+      "bytes": 68908
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/53.svg",
+      "sha256": "fa14284db1fbbceb8a138c1b379acf9c30b7fc85356fd7d49e85c526e37ed85f",
+      "bytes": 68862
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/51.svg",
+      "sha256": "3b79b020d00c9aff1db96ab1e66ec06b241f32891f1cec63cad8e060956450d7",
+      "bytes": 69036
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/54.svg",
+      "sha256": "29f8e2f1f4b82579e01d33d133f5f58d9d5c560f4ce62af96531f8ac169d6ad6",
+      "bytes": 68346
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/55.svg",
+      "sha256": "1f5c997cb4f4a6118f8bc7ce0723a473ed16bf646edfb1aa2a4a839ca52518de",
+      "bytes": 68116
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/57.svg",
+      "sha256": "987ca66bf9909c07ac50cd24a1771767b605d2073e7c33c815deaec8c5bcc4fd",
+      "bytes": 67893
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PPO/56.svg",
+      "sha256": "16f4bc2e53236aa632944f98fc30d7b27439121debe11289936a4af56cf1d48f",
+      "bytes": 67388
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/100.svg",
+      "sha256": "fcd27282425e1e19f336542817bc0304afe20d140b920343ea502ca7a6d57f0a",
+      "bytes": 64253
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/98.svg",
+      "sha256": "bd7a95663e179be44c788b6d2b6aa50df024e1897b07cfb0190cf18464545917",
+      "bytes": 60789
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/99.svg",
+      "sha256": "1e5f351eabef83f2e696f49ce4db4d1e687ab72421446801cd43862e90d54efa",
+      "bytes": 62713
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/91.svg",
+      "sha256": "67e76eb4d4661f0d52f28e77f34facbb6575d5ec87b3625038698ef4c63432e9",
+      "bytes": 60989
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/92.svg",
+      "sha256": "5a90f35a8c09f42e5e131b9d4c90d2ff3e8ca1233645e6c70d7d4836a645f809",
+      "bytes": 60800
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/93.svg",
+      "sha256": "edb9d74493f71cd75dde97662081658d2c8a47dd8fe94b66e4cc064a669d3560",
+      "bytes": 66867
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/97.svg",
+      "sha256": "6b61043783b9e4407d9d0a2f10afdefdbc875182e5feeaa2b11e8b4ca85230b4",
+      "bytes": 59357
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/96.svg",
+      "sha256": "e048b1edc988184e4ea4dd1c17e01a3f454c1a1ea480195c5bb8189876764a75",
+      "bytes": 63632
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/94.svg",
+      "sha256": "a7024fc8c2c5928c2df0e7abf88a910e5cfe539d0143afefcf8be8f800ce0034",
+      "bytes": 64965
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/TPU/95.svg",
+      "sha256": "b528d62834e326b351eb1ae8ca00bad088a1a6323291167ba63c6d30202546ab",
+      "bytes": 64465
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/139.svg",
+      "sha256": "e4c3e0daf09cf8267c51963b83c5fdd115e11474ca9d14b0245e54283ca35abe",
+      "bytes": 67224
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/138.svg",
+      "sha256": "1d246873bb37156829115aaa5212aa8cc6ab5479ce718637eb4e1a23e2255c7f",
+      "bytes": 67073
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/130.svg",
+      "sha256": "d9b18ce6a803f7101003d66913ac957c4262677ebadccf3dc32e8250cdc452f0",
+      "bytes": 65954
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/131.svg",
+      "sha256": "f6c5cf92a642800acb8329c966e0cf98b0ff4c31e2e5f68e738dc7f9835cfbd5",
+      "bytes": 65731
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/133.svg",
+      "sha256": "6b740c5a465868d4729eccaa8f0f981bb7e76de4ef8d11295e8765b9f3764e6e",
+      "bytes": 69024
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/132.svg",
+      "sha256": "4c2bc0e5b955d82f844c3b9fae10939d40901d6609c017d49a35ff3802a6ecbb",
+      "bytes": 63800
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/136.svg",
+      "sha256": "839f75c05605f86601ca797fde4decc3a1b3fc9dccd2b3ce3c31881b3e813de0",
+      "bytes": 69405
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/137.svg",
+      "sha256": "eb3fdbcf932fdb04f3b32cb9317ea4ce46753554335274819d10e54b06aff13e",
+      "bytes": 66962
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/135.svg",
+      "sha256": "9b03ce9ad7f9106be19a6de498a4285743198e725352e8dd4ee0a38f57bdc833",
+      "bytes": 65823
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMAC/134.svg",
+      "sha256": "106f9cff54e682a1112ac0ff6f6f31d38026cbd14fa8b79977f9347fad9b6d79",
+      "bytes": 68825
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/38.svg",
+      "sha256": "9123666ac6a10a45f85975b37580a47fc6c7dca561a1c494e24579987206f98d",
+      "bytes": 58859
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/39.svg",
+      "sha256": "d050144e011fc480e0f27e7977902f153fed06324eb39bb927f32ad1dac3505e",
+      "bytes": 53397
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/40.svg",
+      "sha256": "e7424085f9943305907206c0bb3ef8171703c14a5bd5137fd696e0eebed6dedd",
+      "bytes": 59445
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/31.svg",
+      "sha256": "086fcfacf177709a3d40d6fe36ea3434dcbf1f61612e02f9fbb1df90263c9afb",
+      "bytes": 60100
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/32.svg",
+      "sha256": "dacfae205c7fa9ec674c83d7e1815de63e18099f8c2637f28ef7b01e947aa46f",
+      "bytes": 55587
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/33.svg",
+      "sha256": "ddc933c390f915c784f242659f0de08d646c2592cb3a22b7b27083c6a28099fd",
+      "bytes": 54308
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/37.svg",
+      "sha256": "88da43b4e42e220e1481ba7c323af46de5b7805be5150bd49d1e8211374c9c58",
+      "bytes": 64131
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/36.svg",
+      "sha256": "ab6d8a231b41496c19240b3b68c4f6e497cece46f09674bd1569dc39cb25ccdc",
+      "bytes": 62333
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/34.svg",
+      "sha256": "dfcd84c89aa7dbf902e29c1933aea003a79520c1b47695bba332d36edbaa6dd5",
+      "bytes": 58576
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/SMMA/35.svg",
+      "sha256": "6cac37ea94d694d97199054260dbd45367b50c609dce827b50874cc1009f355a",
+      "bytes": 67982
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/158.svg",
+      "sha256": "231416d3aba60f343b2078336e5749c0fa6048efe848f3aef520b1222b5a4c3b",
+      "bytes": 59370
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/153.svg",
+      "sha256": "26119b43a6af3b33b57989ae77786303c4ce4ed47a4011e41b9e3a358d28e13b",
+      "bytes": 66080
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/152.svg",
+      "sha256": "cf209a872663f7a3ba035b5216eecc489e452f267bfcbe1d2098caf37cfca819",
+      "bytes": 62808
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/150.svg",
+      "sha256": "da55ab2dba8d1d0797b66338fd26443e4b85c0a4d1c46bc760894a4c29ffd2ca",
+      "bytes": 64353
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/151.svg",
+      "sha256": "b22f7e54928c4fb7891cbc1d6418214fb7276939cc263d30d5a654b9622fcf5f",
+      "bytes": 62964
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/155.svg",
+      "sha256": "4498200ecc7ca95ec918e523d647da86baa48fc2eb88b85ded0114d9215bd030",
+      "bytes": 63545
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/154.svg",
+      "sha256": "07fabb269def0d2b1fca0a882785a19aa61fd9cbfd924a056ef165a061bc778f",
+      "bytes": 64472
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/156.svg",
+      "sha256": "3546f57f47b3dc0eca2797ceb7ca91a3badfa6b1372cd051e52055a0a1b99906",
+      "bytes": 61366
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PA6/157.svg",
+      "sha256": "6e01f71354a5fa7418588ecdada91f117f6e60ea5f483028477f588b2bf0a5fa",
+      "bytes": 61150
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/49.svg",
+      "sha256": "47f2c75515cb9da6ba33f77a86775d6cd6222de2c39d83a8c6a62f3af89c4c60",
+      "bytes": 62526
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/48.svg",
+      "sha256": "51879d2077dee56cc907bb6147b3c02ab861329fe0d99d3c34b184393ed523c4",
+      "bytes": 62045
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/46.svg",
+      "sha256": "8562fc4fb59d2e7b39a752f27eddf20ea41a583e36567aaaa625711e4065257a",
+      "bytes": 66668
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/47.svg",
+      "sha256": "8c6f23b45554b88eeab0819adead0d6851b50c3f65d5d90500d46ee522ff9f4c",
+      "bytes": 68186
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/45.svg",
+      "sha256": "e518225b7c8257508b6d66fffc67851b3c04fda8912a55a0aff0412245b47c99",
+      "bytes": 65500
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/50.svg",
+      "sha256": "ef1e679ada31d3d495ef89ad4841f8bfee84e86e179b0dfea4d845a71708c168",
+      "bytes": 63039
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/44.svg",
+      "sha256": "d3070a2095ae8b82cc2b089f410da390bc01a4bfce67a1bf075d2d62317bef29",
+      "bytes": 61700
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/41.svg",
+      "sha256": "e0f12b9ad7374066cc47118340be37ed927be10a5c6fd61f11dec93aca689d81",
+      "bytes": 63064
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/43.svg",
+      "sha256": "4bb4e25058f6a702c7fdc63d01f4c121e98f52a5e193629854d05704adf2561f",
+      "bytes": 66725
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PAR/42.svg",
+      "sha256": "4cbce806e58e159fb76dbbfa1fbc0cc3c2db83d3b5aa6fb0c3424180c0454fe5",
+      "bytes": 62419
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/166.svg",
+      "sha256": "3c84a1bbc7519f857a078211400f49da54f1927626b69204959c04dc592aa2d9",
+      "bytes": 66223
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/167.svg",
+      "sha256": "0ba98b5dba18645bc9cfc07a269b0d26a3cea7fb20f9b6db939fde89bf03e475",
+      "bytes": 70316
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/165.svg",
+      "sha256": "aeeee0a18b4705006f6aea2926c7ac0c9598aa52a76c05419f59ac8df5006e79",
+      "bytes": 66239
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/159.svg",
+      "sha256": "c927e9badbc21d4240313ca60ecd51f4c681d6ef93a358396ff4c99452e3b52a",
+      "bytes": 66928
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/164.svg",
+      "sha256": "f31bcab2334546f2e481cbe3058534ce5bca9cc67ab59e29956b6ca49bad3722",
+      "bytes": 66308
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/160.svg",
+      "sha256": "2fcf143e6f42b0e73015360cd0729fde5562d4a37298d85ffad0a0751cea2615",
+      "bytes": 64399
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/161.svg",
+      "sha256": "4469324cae3d8ce00f276efe52735fb8f83e3f2e2d14bb5438e68cb2e176a9e4",
+      "bytes": 68052
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/163.svg",
+      "sha256": "d2486d9c1bed65287307ee23b5f3e89248daed647649f280fee728bf31bba3b9",
+      "bytes": 66707
+    },
+    {
+      "path": "08_pictures/picture_code/Spectra_Plots/PBT/162.svg",
+      "sha256": "35dc952321bdf987d5ab396e4c4a16cb57e54d4271a9f865ba7eac06ac628bc3",
+      "bytes": 66270
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/拉曼光谱图.py",
+      "sha256": "f7298fab9292234e4c5599c314f7aae4bff6fc018f532ad4f905903fe6a8c228",
+      "bytes": 3287
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/TOP40波段示意图.py",
+      "sha256": "e9442fa5a6346716ad5264ef22eb0a7e171e3dcca96ef3ed254c306976828243",
+      "bytes": 3948
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/filter_snv_sg_scaled_del_4_model.csv",
+      "sha256": "1b1e01e044aaa34910a3fbe206e06698bba2d1417b8d55518ca8d8d363c679f4",
+      "bytes": 2177738
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/预处理曲线图.py",
+      "sha256": "af05310a373526bdee40d02c6139ab4388f14bd888165e534a1f892fdedb70f6",
+      "bytes": 2627
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/分区图.py",
+      "sha256": "f59b8a4f7ffdbe9713ec0c36893345608a78138527be627c340cf1dd4d6cb165",
+      "bytes": 2890
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/简单拟合图.py",
+      "sha256": "981b225b56badc98804d5cf657b348f931fd43e20693e860812ff3af782fc8a7",
+      "bytes": 6041
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/filter_snv_sg_scaled.csv",
+      "sha256": "bc79c4a686247c1b7ecaea79245a9dc16f345929d131e1ecc6b1f17afcb0f90d",
+      "bytes": 2814438
+    },
+    {
+      "path": "08_pictures/picture_code/Fig1/original.xlsx",
+      "sha256": "a18c5c3740f7b707d79aed4f44341886b66502adc059ba3bc66cb333e4dc567f",
+      "bytes": 2694051
+    },
+    {
+      "path": "08_pictures/picture_code/Fig7/data.xlsx",
+      "sha256": "5f0a1bf7200e595a5b137ecc3db14659a540ff07d8387b80fa7cd1feb6733bd8",
+      "bytes": 15514
+    },
+    {
+      "path": "08_pictures/picture_code/Fig7/折线图.py",
+      "sha256": "0fa0d106baaca4495fde8b46d4dc5c315f7ad8891817cfca4904f4316264c653",
+      "bytes": 4387
+    },
+    {
+      "path": "08_pictures/picture_code/Fig2/散点图.py",
+      "sha256": "3aadc94ec27f4e417f5c23b5bd3c0144d32051b81d465fb0c121c0cdea0be2da",
+      "bytes": 2290
+    },
+    {
+      "path": "08_pictures/picture_code/Fig2/预处理汇总曲线图.py",
+      "sha256": "52d514c26845f6e9805ea0c492fcfd9d9592525f2307aa4898610778957aa9bc",
+      "bytes": 3473
+    },
+    {
+      "path": "08_pictures/picture_code/Fig2/filter_snv_sg_scaled_del_4_model.csv",
+      "sha256": "1b1e01e044aaa34910a3fbe206e06698bba2d1417b8d55518ca8d8d363c679f4",
+      "bytes": 2177738
+    },
+    {
+      "path": "08_pictures/picture_code/Fig2/光谱图.py",
+      "sha256": "534aaaa9fd0abec86433483741f8e2a0750815b07f4099d733dd589fa9027bde",
+      "bytes": 3187
+    },
+    {
+      "path": "08_pictures/picture_code/Fig2/original.xlsx",
+      "sha256": "a18c5c3740f7b707d79aed4f44341886b66502adc059ba3bc66cb333e4dc567f",
+      "bytes": 2694051
+    },
+    {
+      "path": "08_pictures/picture_code/.vscode/settings.json",
+      "sha256": "fb68765dabb197cac60376c803ac61894961b835ca8760705eb89a09e2177551",
+      "bytes": 132
+    },
+    {
+      "path": "08_pictures/picture_code/Fig3/选取波段图.py",
+      "sha256": "ef29c241e3545079d3fdde9306940da6c34cb9ee539ae83554be1f8c1eaf2d20",
+      "bytes": 12714
+    },
+    {
+      "path": "08_pictures/picture_code/Fig3/selection_records.py",
+      "sha256": "b85a25d5ef15cadd4bb7eac3da03dfc107d47cd4f862a8b0d2e86e22b50a88f7",
+      "bytes": 2664
+    },
+    {
+      "path": "08_pictures/picture_code/Fig3/波段频率汇总图.py",
+      "sha256": "d9e6d0fda2a140e1e0eb94adbdbb01f7f2a392e68ceea996494c5c8c7251500d",
+      "bytes": 10764
+    },
+    {
+      "path": "08_pictures/picture_code/Fig3/光谱分区图.py",
+      "sha256": "08c06b0532e86a6bd930dea607263c7a9233bf17ec22f0ae52eb977310f0e5b6",
+      "bytes": 2541
+    },
+    {
+      "path": "08_pictures/picture_code/Fig3/fold.xlsx",
+      "sha256": "e2b6e310ca68962074cd3f3d4e1411deb4c2e94b458d81c8500956eeb33dd46b",
+      "bytes": 13274
+    },
+    {
+      "path": "08_pictures/picture_code/Fig3/original.xlsx",
+      "sha256": "a18c5c3740f7b707d79aed4f44341886b66502adc059ba3bc66cb333e4dc567f",
+      "bytes": 2694051
+    },
+    {
+      "path": "08_pictures/architecture/.$raman-refined-reference-architecture.drawio.bkp",
+      "sha256": "164302db62236effe56132779d1a3b4c4d9bc7c09adc7e3a02f9bd6d2bc1a267",
+      "bytes": 344373
+    },
+    {
+      "path": "08_pictures/architecture/architecture.drawio",
+      "sha256": "fcf6adac10491c4312ff9d8bbe24c8c578a26b3b6b4627f7e327f4693ba88aa9",
+      "bytes": 365253
+    },
+    {
+      "path": "08_pictures/architecture/architecture.pdf",
+      "sha256": "4f77b559e708d8b00ef991e1493cf35b2aea271a38f420e3171e0b47bc99f81e",
+      "bytes": 1158235
+    },
+    {
+      "path": "08_pictures/architecture/.$architecture.drawio.bkp",
+      "sha256": "ed67f084f45d55e6869b9a9adff29b43849ffa217709010dc1c4d9a630530a59",
+      "bytes": 364660
+    },
+    {
+      "path": "07_code/400LR.xlsx",
+      "sha256": "fca8a9ee871dd349da30a4d2a1530ea9e14869f396c951e76b66c46d402fef84",
+      "bytes": 2151491
+    },
+    {
+      "path": "07_code/400LR1.xlsx",
+      "sha256": "6000af7eb11086eb6ccbbfc73da868182f3af7980760a66b777f6075b5c7ed7c",
+      "bytes": 2106858
+    },
+    {
+      "path": "07_code/400LR_额外9条光谱.xlsx",
+      "sha256": "4e246e71200238809f585e23151854ae79e77eb4156432f7cd8f4e20ca0812e9",
+      "bytes": 56996
+    },
+    {
+      "path": "08_pictures/readme.txt",
+      "sha256": "95bab4b31159816d68ff05efdb78f8a020220d63a1139abbeb788e5dbf1541f6",
+      "bytes": 895
+    },
+    {
+      "path": "投稿/si/04_Supplementary_Data.xlsx",
+      "sha256": "e2222218feaea741d1cc71ecb3ac85109f083fb1b94e78493259b45ec6c87882",
+      "bytes": 2733552
+    }
+  ],
+  "excluded_local_configuration": [
+    "07_code/Raman-MP-Metal-Analysis/.vscode/settings.json"
+  ]
+}
