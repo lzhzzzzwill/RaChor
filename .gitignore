@@ -1,18 +1,37 @@
-.DS_Store
+# Python caches
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Virtual environments
 .venv/
 venv/
-node_modules/
+env/
+
+# Local editor/project settings
+.idea/
+.vscode/
+
+# Test/build artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-local model cache
+.cache/
+
+# Credentials and temporary Office/editor files
 .env
 .env.*
 !.env.example
 *.pem
 *.key
-.cache/
-.pytest_cache/
-*.log
+~$*
 *.inspect.ndjson
-*.joblib
-*.pt
-*.pth
