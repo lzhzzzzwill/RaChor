@@ -43,8 +43,7 @@ RaChor/
 │   ├── orchestrator.py
 │   └── reporter.py
 ├── utils/
-├── nestedcv_oof_predictions.xlsx    # Saved RaChor evaluation results
-└── te_not_in_training_comparison/  # Recorded supplementary-sample checks
+└── nestedcv_oof_predictions.xlsx    # Saved RaChor evaluation results
 ```
 
 The `artifacts/` directory is created when exporting a full-data model.
@@ -100,4 +99,4 @@ RaChor writes `nestedcv_oof_predictions.xlsx`, including global-stack and final-
 
 Metrics are **R², RMSE, and RPD**. RPD is the sample standard deviation (`ddof=1`) divided by RMSE. Pooled OOF metrics are calculated from all outer holdout predictions, not by averaging fold scores.
 
-The existing RaChor workflow standardizes the full spectral dataset before outer cross-validation and performs supervised band selection before internal stacking OOF generation. Sample-level OOF results evaluate the supplied material collection rather than transfer to a new experimental batch or instrument. Recorded supplementary-sample checks are described in [their data notes](te_not_in_training_comparison/README.md).
+The existing RaChor workflow standardizes the full spectral dataset before outer cross-validation and performs supervised band selection before internal stacking OOF generation. Sample-level OOF results evaluate the supplied material collection rather than transfer to a new experimental batch or instrument.
